@@ -14597,7 +14597,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p><b><font color='red' size="10">1) REGRESSION LINEAIRE</font> </b></p>
+<p><b><font color='red' size="10">1) La Régression Linéaire</font> </b></p>
 
 </div>
 </div>
@@ -14628,8 +14628,8 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p><b><font color='blue' size="6">a) VISUALISATION DES DONNEES</font> </b></p>
-<p><b><font color='black' size="5">Nous commençons par une étape de visualisation des données. Cette étape nous permet de voir la distribution de nos données.
+<p><b><font color='blue' size="6">a) Visualisation et préparation des données</font> </b></p>
+<p><b><font color='black' size="5">Nous commençons par une étape de visualisation des données. Cette étape nous permet de voir la distribution des différentes caractéristiques des vins.
 </font> </b></p>
 
 </div>
@@ -14706,8 +14706,8 @@ class="
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>Grâce à cette visualisation, nous modifions les colonnes qui ne semblent pas avoir une distribution normale.
-On normalise avec un paramètre trouvé à la main pour chaque caractéristique et on standardise.</p>
+<p><b><font color='black' size="5">Grâce à cette visualisation, nous modifions les colonnes qui ne semblent pas avoir une distribution normale.
+On normalise avec un paramètre trouvé à la main pour chaque caractéristique et on standardise.</font> </b></p>
 
 </div>
 </div>
@@ -14805,7 +14805,7 @@ class="
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>Souhaitant prédire la qualité, nous allons afficher les graph des différentes caractéristiques en fonction de la qualité, ainsi qu'une matrice de corrélation linéaire.</p>
+<p><b><font color='black' size="5">Souhaitant prédire la qualité, nous allons afficher les graph des différentes caractéristiques en fonction de la qualité, ainsi qu'une matrice de corrélation linéaire.</font> </b></p>
 
 </div>
 </div>
@@ -14898,19 +14898,7 @@ class="
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>Certaines caractéristiques sont particulièrement corrélées. Mais on ne détecte rien de très intéressant pour la qualité. Le coefficient R ne dépassant jamais 0.5, on va garder toutes les données et continuer.</p>
-
-</div>
-</div>
-</div>
-</div>
-<div  class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>Préparation des données :</p>
+<p><b><font color='black' size="5">Certaines caractéristiques sont particulièrement corrélées. Mais on ne détecte rien de très intéressant pour la qualité. Le coefficient R ne dépassant jamais 0.5, on va garder toutes les données et continuer.</font> </b></p>
 
 </div>
 </div>
@@ -14976,8 +14964,9 @@ nombre d&#39;observations y:  1074
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>NOUVELLE MODIFICATION DU JEU DE DONNEES :</p>
-<p>on a trop de vins de qualité égales à 5 ou 6... le modèle pourrait se concentrer sur des notes de 5 et 6 pour que la somme des erreures soit minimale. On va donc modifier le jeu de données pour avoir une répartition plus homogène.</p>
+<p><b><font color='black' size="5">
+Nouvelle Modification du jeu de données:
+on a trop de vins de qualité égales à 5 ou 6... le modèle pourrait se concentrer sur des notes de 5 et 6 pour que la somme des erreures soit minimale. On va donc modifier le jeu de données pour avoir une répartition plus homogène.</font> </b></p>
 
 </div>
 </div>
@@ -15060,8 +15049,8 @@ class="
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>CREATION DES JEUX DE DONNEES:
-Nous allons pour différents modèles faire de la cross validation. Nous avons pour cela besoin d'un jeu de données d'entrainement, d'un jeu de validation pour le choix des modèles/hyperparamètres et d'un jeu de test du modèle choisi.</p>
+<p><b><font color='black' size="5">Création des jeux de tests:
+Nous allons pour différents modèles faire de la cross validation. Nous avons pour cela besoin d'un jeu de données d'entrainement, d'un jeu de validation pour le choix des modèles/hyperparamètres et d'un jeu de test du modèle choisi.</font> </b></p>
 
 </div>
 </div>
@@ -15132,7 +15121,7 @@ nombre d&#39;observations y:  374
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>Dernière étape : normalisation sur tous les jeux</p>
+<p><b><font color='black' size="5">Dernière étape : normalisation sur tous les jeux</font> </b></p>
 
 </div>
 </div>
@@ -15172,10 +15161,10 @@ nombre d&#39;observations y:  374
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>PREMIERE METHODE : Regression Linéaire par moindre carrés avec régularisation:</p>
-<p>Nous allons pour cette première méthode traiter la question comme une régression linéaire.
+<p><b><font color='blue' size="6">b) Première Méthode : Regression Linéaire par moindre carrés avec régularisation:</font> </b></p>
+<p><b><font color='black' size="5">Nous allons pour cette première méthode traiter la question comme une régression linéaire.
 Avec quality = b1<em>fixe_acidity + b2</em> volatile_acidity+ ... + b10*sulphates
-On va calculer ces coefficients avec cette méthodes pour plusieurs Lambda avec X_train, puis comparer les résultats en fonction de l'hyperparamètre Lambda sur X_cv et évaluer finalement notre modèle avec le meilleur Lambda sur X_test.</p>
+On va calculer ces coefficients avec cette méthodes pour plusieurs Lambda avec X_train, puis comparer les résultats en fonction de l'hyperparamètre Lambda sur X_cv et évaluer finalement notre modèle avec le meilleur Lambda sur X_test.</font> </b></p>
 
 </div>
 </div>
@@ -15309,7 +15298,7 @@ On va calculer ces coefficients avec cette méthodes pour plusieurs Lambda avec 
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>On a trouvé nos coefficients Beta, on va tester nos résultats:</p>
+<p><b><font color='black' size="5">On a trouvé nos coefficients Beta, on va tester nos résultats:</font> </b></p>
 
 </div>
 </div>
@@ -15450,8 +15439,8 @@ class="
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>D'après ces tests, on garde lambda = 0, notre modèle n'est pas assez complexe pour nécessiter une régularisation. 
-évaluons maintenant le modèle sur le jeu de test.</p>
+<p><b><font color='black' size="5">D'après ces tests, on garde lambda = 0, notre modèle n'est pas assez complexe pour nécessiter une régularisation. 
+évaluons maintenant le modèle sur le jeu de test.</font> </b></p>
 
 </div>
 </div>
@@ -15500,7 +15489,7 @@ class="
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>Le résultat ne parait pas très bon. La régression linéaire n'est pas adaptée car on doit trouver des valeurs discrètes.</p>
+<p><b><font color='black' size="5">Le résultat ne parait pas très bon. La régression linéaire n'est pas adaptée car on doit trouver des valeurs discrètes.</font> </b></p>
 
 </div>
 </div>
@@ -15512,12 +15501,12 @@ class="
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>DEUXIEME METHODE : la Descente de Gradient 
-Pour trouver de nouveau les coefficients de la régression linéaire, nous allons utiliser la méthode de la descente de gradient.
+<p><b><font color='blue' size="6">c) Deuxième Méthode: la Descente de Gradient </font> </b></p>
+<p><b><font color='black' size="5">Pour trouver de nouveau les coefficients de la régression linéaire, nous allons utiliser la méthode de la descente de gradient.
 Avec cette fois quality = w1<em>fixe_acidity + w2</em> volatile_acidity+ ... + w10*sulphates + b0</p>
 <p>Cette méthode actualiste de manière itérative les coefficients W et b0 pour minimiser le cout (= l'erreur moyenne de prédiction).</p>
 <p>Elle est moins rapide que la regression précédente mais a l'avantage de pouvoir être utilisée pour n'importe quelle quality = g(W,b) (pas seulement un problème linéaire)
-Testons cette méthode d'abord pour une regression linéaire.</p>
+Testons cette méthode d'abord pour une regression linéaire.</font> </b></p>
 
 </div>
 </div>
@@ -15529,7 +15518,7 @@ Testons cette méthode d'abord pour une regression linéaire.</p>
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>Codes</p>
+<p><b><font color='yellow' size="5">Codes :</font> </b></p>
 
 </div>
 </div>
@@ -15652,7 +15641,7 @@ Testons cette méthode d'abord pour une regression linéaire.</p>
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>Application:</p>
+<p><b><font color='black' size="5">Application:</font> </b></p>
 
 </div>
 </div>
@@ -15758,8 +15747,8 @@ class="
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>La descente de gradient nous donne les coefficients de la régression linéaire qui minimise l'erreur.
-On voit l'évolution de l'erreur moyenne en fonction de l'itération.</p>
+<p><b><font color='black' size="5">La descente de gradient nous donne les coefficients de la régression linéaire qui minimisent l'erreur.
+On voit ci-dessus l'évolution de l'erreur moyenne en fonction de l'itération.</font> </b></p>
 
 </div>
 </div>
@@ -15771,8 +15760,8 @@ On voit l'évolution de l'erreur moyenne en fonction de l'itération.</p>
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>INFLUENCE DE L'HYPERPARAMETRE ALPHA</p>
-<p>Alpha est l'hyperparamètre de la descente de gradient qui met à jour les coefficients de la regression à chaque itération. Plus alpha sera grand, plus l'ajustement à chaque itération sera important.</p>
+<p><b><font color='black' size="5">Influence de l'Hyperparamètre Alpha :
+Alpha est l'hyperparamètre de la descente de gradient qui met à jour les coefficients de la regression à chaque itération. Plus alpha sera grand, plus l'ajustement à chaque itération sera important.</font> </b></p>
 
 </div>
 </div>
@@ -15914,7 +15903,7 @@ class="
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>Le premier alpha est trop grand, on saute l'optimum. Le second est trop petit, on ne l'atteint qu'après un trop grand nombre d'itérations...</p>
+<p><b><font color='black' size="5">Le premier alpha est trop grand, on saute l'optimum. Le second est trop petit, on ne l'atteint qu'après un trop grand nombre d'itérations...</font> </b></p>
 
 </div>
 </div>
@@ -15926,7 +15915,7 @@ class="
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>TEST DU RESULTAT: Après avoir trouver nos coefficients permettant de minimiser l'erreur, on peut visualiser nos prédictions.</p>
+<p><b><font color='black' size="5">Test du Résultat: Après avoir trouver nos coefficients permettant de minimiser l'erreur, on peut visualiser nos prédictions.</font> </b></p>
 
 </div>
 </div>
@@ -15995,8 +15984,8 @@ class="
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>Le coût est similaire, un petit peu plus élevé. Nous allons maintenant utiliser la méthode de la descente de gradient pour un nouveau type de fonctions quality = g(W,b)
-avec g qui va nous donner la probabilité d'appertenance d'un x à une qualité y. C'est l'algorithme Softmax.</p>
+<p><b><font color='black' size="5">Le coût est similaire, un petit peu plus élevé. Nous allons maintenant utiliser la méthode de la descente de gradient pour un nouveau type de fonctions quality = g(W,b)
+avec g qui va nous donner la probabilité d'appertenance d'un x à une qualité y. C'est l'algorithme Softmax.</font> </b></p>
 
 </div>
 </div>
